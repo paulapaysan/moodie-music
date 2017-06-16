@@ -1,8 +1,7 @@
 require 'bundler'
 Bundler.require
 require_relative 'models/model.rb'
-class MyApp < Sinatra::Base
-
+class MyApp < Sinatra::Bases
   get '/' do
     erb :index
   end

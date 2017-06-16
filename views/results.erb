@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Dimension by HTML5 UP</title>
+		<title><%=@mood%></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -15,63 +15,7 @@
 	</head>
 	<body>
 <!--<%=@mood%>-->
-		<!-- Wrapper -->
-			<!--<div id="wrapper">-->
-
-				<!-- Header -->
-			<!--		<header id="header">-->
-			<!--			<div class="logo">-->
-			<!--				<span class="icon fa-music"></span>-->
-			<!--			</div>-->
-			<!--			<div class="content">-->
-			<!--				<div class="inner">-->
-			<!--					<h1>Moodie</h1>-->
-			<!--					<p>A free music generator for you, anytime, any mood.</p>-->
-			<!--				</div>-->
-			<!--			</div>-->
-			<!--			<nav>-->
-			<!--				<ul>-->
-			<!--					<form action="/results" method="POST">-->
-   <!-- 								<input type="submit" value="Cheerful" -->
-   <!--     								name="mood" id="form_buttons" />-->
-   <!--     							<input type="submit" value="Mellow" -->
-   <!--     								name="mood" id="form_buttons" />-->
-   <!--     							<input type="submit" value="Gloomy" -->
-   <!--     								name="mood" id="form_buttons" />-->
-   <!--     							<input type="submit" value="Pumped" -->
-   <!--     								name="mood" id="form_buttons" />-->
-   <!--     							<input type="submit" value="Angry" -->
-   <!--     								name="mood" id="form_buttons" />-->
-   <!--     							<input type="submit" value="Focused" -->
-   <!--     								name="mood" id="form_buttons" />-->
-   <!--     							<input type="submit" value="Smitten" -->
-   <!--     								name="mood" id="form_buttons" />-->
-   <!--     							<input type="submit" value="Nostalgic" -->
-   <!--     								name="mood" id="form_buttons" />-->
-			<!--					</form>-->
-
-								<!--<li><a href="#elements">Elements</a></li>-->
-			<!--				</ul>-->
-			<!--			</nav>-->
-			<!--		</header>-->
-
-				<!-- Main -->
-				<!--	<div id="main">-->
-					  
-					  <!-- about -->
-				<!--			<article id="about">-->
-				<!--				<h2 class="major">about</h2>-->
-				<!--				<span class="image main"><img src="images/KWK.jpg" alt="" /></span>-->
-				<!--				<p>Rachel, Maddy, and Paula created Moodie at Kode with Klossy in Austin, Texas.-->
-				<!--				<ul>-->
-				<!--				  <li>Rachel had never coded before attending KwK. She enjoys playing ukulele and guitar, hanging with friends, and petting dogs.</li>-->
-				<!--				  <li>Maddy spends all of her time (outside of coding) in theatre, playing piano, and taking pictures of her friends and her dog, Roxi.</li>-->
-				<!--				  <li>Paula had never coded before attending KwK. She enjoys playing ukulele and guitar, theatre, hanging with friends, and petting dogs. </li>-->
-				<!--				</ul>-->
-				<!--				</p>-->
-				<!--			</article>-->
-
-						<!-- Cheerful -->
+	
 							<article id="<%=@mood%>">
 								<h2 class="major"><%=@mood%></h2>
 								<iframe width="560" height="315" src="<%=@artist%>" frameborder="0" allowfullscreen></iframe>
