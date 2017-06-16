@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title><%=@mood%></title>
+		<title><%=@mood.capitalize%></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,7 +16,7 @@
 	<body>
 <!--<%=@mood%>-->
 	
-							<article id="<%=@mood%>">
+							<article id="<%=@mood.capitalize%>">
 								<h2 class="major"><%=@mood%></h2>
 								<iframe width="560" height="315" src="<%=@artist%>" frameborder="0" allowfullscreen></iframe>
 								<!--<span class="image main"><img src="images/pic01.jpg" alt="" /></span>-->
