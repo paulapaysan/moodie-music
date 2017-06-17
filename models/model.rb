@@ -3,7 +3,7 @@ require 'json'
 require 'rubygems'
 require 'rest-client'
 
-
+#vimeo api - no longer using
 def find_image(search)
     r = RestClient::Request.execute(method: :post,
                             url: "https://api.vimeo.com/oauth/authorize/client",
@@ -19,8 +19,6 @@ def find_image(search)
     # read_results["data"][0]["height"] = 480
     read_results["data"].sample["embed"]["html"]
 end
-
-
 
 
 def description(mood)
