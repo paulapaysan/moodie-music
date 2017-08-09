@@ -1,6 +1,6 @@
-#Moodie Music
+# Moodie Music
 
-###A free music generator for you. Any time. Any mood.
+### A free music generator for you. Any time. Any mood.
 
 Final Project for the Level One Kode With Klossy Camp in Austin, Texas.
 
